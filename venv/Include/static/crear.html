@@ -53,10 +53,13 @@
 
 
         <br><h1 class="text-center">{{title}}</h1><br>
-          <div class="form-group">
-            <label for="foto">Foto</label>
-            <input class="form-control" id="foto" type="file" name="foto" accept="image/*" required>
-        </div>
+
+          <div class="custom-file">
+    <input type="file" class="custom-file-input" id="foto"
+      aria-describedby="inputGroupFileAddon01" name="foto" accept="image/*" required>
+    <label class="custom-file-label" for="foto">Choose file</label>
+  </div>
+
         <div class="row justify-content-center">
           <div class="form-group">
             <label for="nombre">Nombre:</label>
